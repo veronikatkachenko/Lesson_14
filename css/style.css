@@ -1,0 +1,222 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+	font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+[class*="__container"] {
+	margin: 0px auto;
+	max-width: 1020px;
+}
+
+.main {
+	background-color: #29C3BE;
+	margin: 0px 0px 100px 0px;
+}
+
+.our-impact {
+	position: relative;
+	padding: 112px 0px 212px 0px;
+}
+
+.body-content__sub-title {
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 32px;
+}
+
+.body-content__sub-title::before {
+	content: "";
+	width: 28px;
+	height: 27px;
+	display: inline-block;
+	background: url(../img/icon.svg) 0 0 no-repeat;
+	margin: 0px 10px -8px 0px;
+}
+
+.body-content__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #fff;
+	margin-bottom: 79px;
+}
+.body-content__title_width{
+	max-width: 411px;
+}
+.our-impact__dog img {
+	width: 498px;
+	height: 315px;
+	position: absolute;
+	transform: translate(525px, -418px);
+	border-radius: 40px;
+	z-index: 1;
+}
+
+.our-impact__blod {
+	width: 638px;
+	height: 276px;
+	background: url(../img/decor.png) 0 0 no-repeat;
+	position: absolute;
+	top: 0;
+	right: -75px;
+}
+
+.our-impact__advantages {
+	display: flex;
+	justify-content: space-between;
+}
+
+.our-impact__advantage {
+	display: flex;
+	align-items: center;
+}
+
+.advantage-body__image{
+	width: 76px;
+	height: 76px;
+}
+.advantage-body__image img{
+	width: 100%;
+}
+.advantage-body__image:not(:last-child) {
+	margin-right: 12px;
+}
+
+.info-advantage__digit {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #fff;
+}
+
+.info-advantage__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+
+.our-impact__item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.item-our-impact {
+	background: #5D62B5;
+	border-radius: 20px;
+	padding: 43px 76px 46px 70px;
+	position: absolute;
+	top: 540px;
+	right: 0;
+	left: 0;
+}
+
+.item-our-impact__text {
+	font-size: 24px;
+	line-height: 1.25;
+	color: #FFFFFF;
+	max-width: 562px;
+}
+
+.item-our-impact__button {
+	background: #F2726F;
+	border-radius: 8px;
+	padding: 12px 32px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.item-our-impact__button:hover{
+	background: #c53f3d;
+	transition: all 0.3s;
+}
+.our-promise-to-you {
+	padding: 100px 0px 0px 0px;
+}
+
+.our-promise-to-you__body {
+	margin: 0px 0px 68px 0px;
+}
+
+.body-content__sub-title_color {
+	color: #5D62B5;
+}
+
+.body-content__sub-title_color::before {
+	content: "";
+	width: 28px;
+	height: 27px;
+	display: inline-block;
+	background: url(../img/icon-header.svg) 0 0 no-repeat;
+	margin: 0px 10px -8px 0px;
+}
+
+.body-content__title_color {
+	color: #000;
+}
+
+.our-promise-to-you__advantages {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 0px 200px 0px;
+}
+
+.advantage-block__info {
+	padding: 0px 0px 0px 80px;
+}
+
+.info-advantage-block__title_dog::before {
+	content: "";
+	width: 63px;
+	height: 63px;
+	display: inline-block;
+	background: url(../img/dog_love_24x.svg) 0 0 no-repeat;
+	margin: 0px 13px -38px -80px;
+}
+.info-advantage-block__title_vet::before {
+	content: "";
+	width: 63px;
+	height: 63px;
+	display: inline-block;
+	background: url(../img/dog_vet_24x.svg) 0 0 no-repeat;
+	margin: 0px 13px -38px -80px;
+}
+.info-advantage-block__title_stream::before {
+	content: "";
+	width: 63px;
+	height: 63px;
+	display: inline-block;
+	background: url(../img/dog_stream_24x.svg) 0 0 no-repeat;
+	margin: 0px 13px -38px -80px;
+}
+
+.info-advantage-block__title {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 1.37;
+	color: #F2726F;
+	margin-bottom: 20px;
+}
+
+.info-advantage-block__text {
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
+}
